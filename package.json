@@ -1,0 +1,26 @@
+{
+  "name": "singerproj",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "mocha",
+    "build": "tsc",
+    "lint": "eslint"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}
